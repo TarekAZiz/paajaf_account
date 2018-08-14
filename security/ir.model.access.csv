@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_paajaf_account_paajaf_account,paajaf_account.paajaf_account,model_paajaf_account_paajaf_account,,1,0,0,0
