@@ -5,8 +5,9 @@ from odoo import models, fields, api
 class student_account(models.Model):
     _inherit = "account.invoice"
     student_name = fields.Char("student.name")
-    self.env.cr.execute("""Select name from student_student""")
-    results = self.env.cr.dictfetchall()
+
+#    self.env.cr.execute("""Select name from student_student""") 
+#   results = self.env.cr.dictfetchall()
     student_code = fields.Char("student.code")
     standard_id = fields.Char("student.standard_id")
    
